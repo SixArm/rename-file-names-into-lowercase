@@ -1,0 +1,3 @@
+while read file_name; do
+      mv -f "$file_name" $(echo "$file_name" | tr 'A-Z' 'a-z');
+done
